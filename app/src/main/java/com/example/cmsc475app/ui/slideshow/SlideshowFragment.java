@@ -1,5 +1,6 @@
 package com.example.cmsc475app.ui.slideshow;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,5 +32,6 @@ public class SlideshowFragment extends Fragment {
             }
         });
         return root;
+
     }
 }
