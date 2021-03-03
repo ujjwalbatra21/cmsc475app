@@ -1,8 +1,3 @@
-//ujjwalbatra21 test commit
-//naod test commit
-// Kameron Test Commit
-
-
 package com.example.cmsc475app;
 
 import android.os.Bundle;
