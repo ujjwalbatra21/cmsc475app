@@ -13,14 +13,8 @@ public class PlayersScreen extends AppCompatActivity {
     }
 }
 
-//public class Player{
-//    public String playerName;
-/*    public int[] par;
-    public int[] over_under;
-    public int totalScore, totalPar, totalOverUnder;
-    public int[] score;
-}
-over_under[i] = par[i]-score[i];
+
+/*over_under[i] = par[i]-score[i];
 for(int i = 0; i<19; i++){
     totalScore +=score[i];
 }
@@ -31,5 +25,5 @@ for(int i = 0; i<19; i++){
 
 for(int i = 0; i<19; i++){
     totalOverUnder += over_under[i];
-}
+}*/
 // every entry on the table per hole will be appended to the score array*/

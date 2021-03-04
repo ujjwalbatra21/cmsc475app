@@ -53,14 +53,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2"
+                android:text=""
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1"
@@ -85,14 +85,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
@@ -116,14 +116,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4"
@@ -147,14 +147,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="5"
@@ -179,14 +179,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1"
@@ -211,14 +211,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1"
@@ -243,14 +243,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="5"
@@ -275,14 +275,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
@@ -306,14 +306,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="5"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="5"
@@ -337,14 +337,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4"
@@ -368,14 +368,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
@@ -400,14 +400,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="5"
@@ -432,14 +432,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
@@ -463,14 +463,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1"
@@ -494,14 +494,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
@@ -525,14 +525,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
@@ -556,14 +556,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1"
@@ -588,14 +588,14 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="center"/>
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
