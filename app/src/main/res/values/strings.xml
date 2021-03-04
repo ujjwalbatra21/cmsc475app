@@ -17,6 +17,9 @@
     -->
     <string name="hello_world">Hello Square World!</string>
     <string name="title_activity_new__game">New_Game</string>
+
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_exit">Exit</string>
     <string-array name="Numbers">
         <item>One Player</item>
     </string-array>

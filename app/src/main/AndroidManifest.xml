@@ -13,29 +13,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CMSC475App">
- <!--       <activity android:name=".NewGame"></activity> -->
+
+
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+
+
         <activity
-            android:name=".NewGame"
-            android:label="YourAppName">
-    <!--        android:theme="@style/AppTheme.NoActionBar" > -->
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.CMSC475App.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ExitActivity"
+            android:label="@string/title_activity_exit">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
- <!--       <uses-library
-            android:name="com.google.android.wearable"
-            android:required="true" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- <activity android:name=".NewGame"></activity> -->
+        <activity
+            android:name=".NewGame"
+            android:label="YourAppName">
 
-               Set to true if your app is Standalone, that is, it does not require the handheld
-               app to run.
+            <!-- android:theme="@style/AppTheme.NoActionBar" > -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <meta-data
-            android:name="com.google.android.wearable.standalone"
-            android:value="true" /> -->
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
