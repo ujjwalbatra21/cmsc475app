@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+
+    <group android:checkableBehavior="single">
+
+<!--        <item-->
+<!--            android:id="@+id/action_settings"-->
+<!--            android:orderInCategory="100"-->
+<!--            android:title="@string/action_settings"-->
+<!--            app:showAsAction="never" />-->
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/new_game_icon"
+            android:title="New Game" />
+
+        <item
+            android:id="@+id/nav_cycle"
+            android:icon="@drawable/current_game_icon"
+            android:title="Current Game" />
+
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/exit_icon"
+            android:title="Exit" />
+    </group>
+
+
 </menu>
