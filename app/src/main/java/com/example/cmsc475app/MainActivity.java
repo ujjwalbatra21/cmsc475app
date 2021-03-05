@@ -46,17 +46,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
 
-
-        //navigationView.bringToFront();
         drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        //toolbar = findViewById(R.id.toolbar);
 
+        //toolbar = findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
 
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawerLayout.addDrawerListener(toggle);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
         toggle.syncState();
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
@@ -95,8 +93,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch(item.getItemId()){
-//            case R.id.nav_home:
-//                break;
 
             case R.id.nav_new_game:
                 Intent intent2 = new Intent(MainActivity.this, NewGame.class);
