@@ -11,17 +11,17 @@
 <!--            app:showAsAction="never" />-->
 
         <item
-            android:id="@+id/nav_new_game"
+            android:id="@+id/newGame"
             android:icon="@drawable/new_game_icon"
             android:title="New Game" />
 
         <item
-            android:id="@+id/nav_current_game"
+            android:id="@+id/currentGame"
             android:icon="@drawable/current_game_icon"
             android:title="Current Game" />
 
         <item
-            android:id="@+id/nav_exit"
+            android:id="@+id/exitGame"
             android:icon="@drawable/exit_icon"
             android:title="Exit" />
     </group>
