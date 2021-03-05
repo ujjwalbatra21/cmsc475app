@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 public class NewGame extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private Button button;
+    private Button button2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +25,7 @@ public class NewGame extends AppCompatActivity implements AdapterView.OnItemSele
         spinner.setAdapter((adapter));
         spinner.setOnItemSelectedListener(this);
 
+
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +34,19 @@ public class NewGame extends AppCompatActivity implements AdapterView.OnItemSele
 
             }
         });
+        button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                exitScreen();
 
+            }
+        });
+
+    }
+    public void exitScreen(){
+        Intent intentb2 = new Intent(this,ExitActivity.class);
+        startActivity(intentb2);
     }
 
     public void playerScreen(){
