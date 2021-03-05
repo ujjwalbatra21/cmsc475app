@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/newGame"
-        android:name="com.example.cmsc475app.NewGame"
+        android:name="com.example.cmsc475app.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/activity_new_game" />
+        tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/currentGame"
-        android:name="com.example.cmsc475app.PlayersScreen"
+        android:name="com.example.cmsc475app.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/activity_players_screen" />
+        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/exitGame"
-        android:name="com.example.cmsc475app.ExitActivity"
+        android:name="com.example.cmsc475app.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/activity_exit" />
+        tools:layout="@layout/fragment_slideshow" />
 </navigation>
