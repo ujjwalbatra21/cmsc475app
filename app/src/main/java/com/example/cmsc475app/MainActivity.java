@@ -24,7 +24,7 @@ import androidx.appcompat.widget.Toolbar;
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private AppBarConfiguration mAppBarConfiguration;
-    private DrawerLayout drawerLayout;
+    //private DrawerLayout drawerLayout;
     private DrawerLayout drawer;
     //private NavigationView navigationView;
     //private Toolbar toolbar;
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
+                R.id.nav_new_game, R.id.nav_current_game, R.id.nav_exit)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public void onBackPressed(){
-        if(drawerLayout.isDrawerOpen((GravityCompat.START))){
-            drawerLayout.closeDrawer(GravityCompat.START);
+        if(drawer.isDrawerOpen((GravityCompat.START))){
+            drawer.closeDrawer(GravityCompat.START);
         }
         else{
             super.onBackPressed();
@@ -95,13 +95,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch(item.getItemId()){
 
             case R.id.nav_new_game:
-                Intent intent2 = new Intent(MainActivity.this, NewGame.class);
-                startActivity(intent2);
+                Intent intent = new Intent(MainActivity.this, NewGame.class);
+                startActivity(intent);
                 break;
 
             case R.id.nav_current_game:
-                Intent intent = new Intent(MainActivity.this, PlayersScreen.class);
-                startActivity(intent);
+                Intent intent2 = new Intent(MainActivity.this, PlayersScreen.class);
+                startActivity(intent2);
                 break;
 
             case R.id.nav_exit:
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
         }
 
-        drawerLayout.closeDrawer(GravityCompat.START);
+        drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 }
