@@ -547,7 +547,7 @@
                     android:text="0"
                     android:textStyle="bold" />
             </TableRow>
-        <!-- hole fifteen
+         hole fifteen
             <TableRow>
 
                 <TextView
@@ -582,7 +582,7 @@
                     android:text="0"
                     android:textStyle="bold" />
             </TableRow>
-        <!-- hole sixteen
+         hole sixteen
             <TableRow>
 
                 <TextView
@@ -617,7 +617,7 @@
                     android:text="0"
                     android:textStyle="bold" />
             </TableRow>
-        <!-- hole seventeen
+         hole seventeen
             <TableRow>
 
                 <TextView
@@ -653,7 +653,7 @@
                     android:text="-1"
                     android:textStyle="bold" />
             </TableRow>
-        <!-- hole eighteen
+        hole eighteen
             <TableRow>
 
                 <TextView
@@ -688,7 +688,7 @@
                     android:text="0"
                     android:textStyle="bold" />
             </TableRow>
-        <!-- total menu -->
+        total menu -->
             <TableRow>
 
                 <TextView
