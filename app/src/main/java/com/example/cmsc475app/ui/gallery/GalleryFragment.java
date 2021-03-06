@@ -1,9 +1,11 @@
 package com.example.cmsc475app.ui.gallery;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -12,10 +14,11 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.cmsc475app.PlayersScreen;
 import com.example.cmsc475app.R;
 
 public class GalleryFragment extends Fragment {
-
+    private Button button;
     private GalleryViewModel galleryViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -30,6 +33,19 @@ public class GalleryFragment extends Fragment {
                 textView.setText(s);
             }
         });
+
+        button = (Button) root.findViewById(R.id.switchplayerscreen);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                switchCurrentGame();
+
+            }
+        });
         return root;
+    }
+    public void switchCurrentGame(){
+        Intent intent = new Intent(getActivity(), PlayersScreen.class);
+        startActivity(intent);
     }
 }
