@@ -66,7 +66,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text=""
+                    android:text="1"
                     android:textStyle="bold" />
 
                 <EditText
@@ -512,7 +512,7 @@
                     android:text="0"
                     android:textStyle="bold" />
             </TableRow>
-        <!-- hole fourteen -->
+        <!-- hole fourteen
             <TableRow>
 
                 <TextView
@@ -547,7 +547,7 @@
                     android:text="0"
                     android:textStyle="bold" />
             </TableRow>
-        <!-- hole fifteen -->
+        <!-- hole fifteen
             <TableRow>
 
                 <TextView
@@ -582,7 +582,7 @@
                     android:text="0"
                     android:textStyle="bold" />
             </TableRow>
-        <!-- hole sixteen -->
+        <!-- hole sixteen
             <TableRow>
 
                 <TextView
@@ -617,7 +617,7 @@
                     android:text="0"
                     android:textStyle="bold" />
             </TableRow>
-        <!-- hole seventeen -->
+        <!-- hole seventeen
             <TableRow>
 
                 <TextView
@@ -653,7 +653,7 @@
                     android:text="-1"
                     android:textStyle="bold" />
             </TableRow>
-        <!-- hole eighteen -->
+        <!-- hole eighteen
             <TableRow>
 
                 <TextView
@@ -704,7 +704,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="52"
+                    android:text="40"
                     android:textStyle="bold" />
 
                 <TextView
@@ -712,7 +712,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="51"
+                    android:text="41"
                     android:textStyle="bold" />
 
                 <TextView
@@ -725,4 +725,10 @@
                     android:textStyle="bold" />
             </TableRow>
         </TableLayout>
-    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FINISH" />
+</LinearLayout>
