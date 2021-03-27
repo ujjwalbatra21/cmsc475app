@@ -17,6 +17,6 @@
         android:layout_height = "wrap_content"
         android:layout_weight = "1"
         android:fontFamily = "sans-serif-condensed-light"
-        android:text = " CMSC 475 App"
+        android:text = " Putt Putt App"
         android:textSize = "28sp" />
 </LinearLayout>
