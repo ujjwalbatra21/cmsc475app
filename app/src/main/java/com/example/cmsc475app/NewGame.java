@@ -8,12 +8,15 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 //public class NewGame extends AppCompatActivity implements AdapterView.OnItemSelectedListener
-public class NewGame extends AppCompatActivity{
-    private Button button,button2;
+public class NewGame extends AppCompatActivity implements View.OnClickListener {
+    private Button button,button2,button5;
     LinearLayout layout_list;
 
 
@@ -22,7 +25,9 @@ public class NewGame extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_game);
 
-
+        layout_list =findViewById(R.id.layout_list);
+        button5 =findViewById(R.id.button5);
+        button5.setOnClickListener(this);
 
 
         button = (Button) findViewById(R.id.button);
@@ -54,5 +59,27 @@ public class NewGame extends AppCompatActivity{
     }
 
 
+    @Override
+    public void onClick(View view) {
+        addView();
+    }
+    private void addView(){
 
+        View newplayerView = getLayoutInflater().inflate(R.layout.row_add_players,null,false);
+        EditText editText = (EditText)newplayerView.findViewById(R.id.player_name);
+        TextView playerstandingText = (TextView)newplayerView.findViewById(R.id.player_standing);
+        ImageView imageclose = (ImageView) newplayerView.findViewById(R.id.image_remove);
+
+        imageclose.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                removeView(newplayerView);
+            }
+        });
+        layout_list.addView(newplayerView);
+    }
+    private void removeView(View view){
+        layout_list.removeView(view);
+
+    }
 }
