@@ -730,20 +730,44 @@
                     android:textStyle="bold" />
             </TableRow>
         </TableLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Previous Player" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button1"
+                android:layout_alignParentRight="true"
+                android:text="Next Player" />
 
 
-        <Button
+        </RelativeLayout>
+
+
+    <!--    <Button
 
             android:id="@+id/next_player"
             android:layout_width="30mm"
             android:layout_height="wrap_content"
+            android:baselineAligned="false"
             android:text="Next Player" />
 
         <Button
             android:id="@+id/previous_player"
             android:layout_width="30mm"
             android:layout_height="wrap_content"
-            android:text="Previous Player" />
+            android:text="Previous Player" />-->
 
         <Button
             android:id="@+id/button6"
@@ -752,3 +776,5 @@
             android:text="FINISH" />
     </LinearLayout>
 </ScrollView>
+
+
