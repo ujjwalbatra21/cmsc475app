@@ -8,12 +8,15 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
 //public class NewGame extends AppCompatActivity implements AdapterView.OnItemSelectedListener
 public class NewGame extends AppCompatActivity{
-    private Button button;
-    private Button button2;
+    private Button button,button2;
+    LinearLayout layout_list;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
