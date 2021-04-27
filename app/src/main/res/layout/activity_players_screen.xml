@@ -13,8 +13,7 @@
         android:gravity="center"
         android:text="Player 1"
         android:textColor="#000000"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints" />
+        android:textStyle="bold" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -34,9 +33,7 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
+        <ScrollView
             android:id="@+id/scroller"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -103,15 +100,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_one"
+                            android:id="@+id/Par1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="1"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_one"
+                            android:id="@+id/Score1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -119,11 +117,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_one"
+                            android:id="@+id/OverUnder1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:background="#90EE90"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -139,15 +137,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_two"
+                            android:id="@+id/Par2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="3"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_two"
+                            android:id="@+id/Score2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -155,10 +154,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_two"
+                            android:id="@+id/OverUnder2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -174,15 +174,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_three"
+                            android:id="@+id/Par3"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="4"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_three"
+                            android:id="@+id/Score3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -190,10 +191,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_three"
+                            android:id="@+id/OverUnder3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -209,15 +211,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_four"
+                            android:id="@+id/Par4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="4"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_four"
+                            android:id="@+id/Score4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -225,11 +228,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_four"
+                            android:id="@+id/OverUnder4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:background="#FA8072"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -245,15 +248,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_five"
+                            android:id="@+id/Par5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="2"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_five"
+                            android:id="@+id/Score5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -261,11 +265,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_five"
+                            android:id="@+id/OverUnder5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:background="#90EE90"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -281,27 +285,28 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_six"
+                            android:id="@+id/Par6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="2"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_six"
+                            android:id="@+id/Score6"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_six"
+                            android:id="@+id/OverUnder6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:background="#90EE90"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -317,15 +322,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_seven"
+                            android:id="@+id/Par7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="3"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_seven"
+                            android:id="@+id/Score7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -333,11 +339,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_seven"
+                            android:id="@+id/OverUnder7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:background="#FA8072"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -353,15 +359,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_eight"
+                            android:id="@+id/Par8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="2"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_eight"
+                            android:id="@+id/Score8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -369,10 +376,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_eight"
+                            android:id="@+id/OverUnder8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -384,18 +392,20 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="9"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_nine"
+                            android:id="@+id/Par9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="5"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_nine"
+                            android:id="@+id/Score9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -403,10 +413,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_nine"
+                            android:id="@+id/OverUnder9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -422,15 +433,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_ten"
+                            android:id="@+id/Par10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="4"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_ten"
+                            android:id="@+id/Score10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -438,10 +450,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_ten"
+                            android:id="@+id/OverUnder10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -457,15 +470,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_eleven"
+                            android:id="@+id/Par11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="4"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_eleven"
+                            android:id="@+id/Score11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -473,11 +487,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_eleven"
+                            android:id="@+id/OverUnder11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:background="#90EE90"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -493,15 +507,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_twelve"
+                            android:id="@+id/Par12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="3"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_twelve"
+                            android:id="@+id/Score12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -509,11 +524,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_twelve"
+                            android:id="@+id/OverUnder12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:background="#FA8072"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -529,15 +544,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_thirteen"
+                            android:id="@+id/Par13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="3"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_thirteen"
+                            android:id="@+id/Score13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -545,10 +561,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_thirteen"
+                            android:id="@+id/OverUnder13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -564,15 +581,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_fourteen"
+                            android:id="@+id/Par14"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="1"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_fourteen"
+                            android:id="@+id/Score14"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -580,10 +598,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_fourteen"
+                            android:id="@+id/OverUnder14"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -599,15 +618,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_fifteen"
+                            android:id="@+id/Par15"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="3"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_fifteen"
+                            android:id="@+id/Score15"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -615,10 +635,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_fifteen"
+                            android:id="@+id/OverUnder15"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -634,15 +655,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_sixteen"
+                            android:id="@+id/Par16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="0"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_sixteen"
+                            android:id="@+id/Score16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -650,12 +672,14 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_sixteen"
+                            android:id="@+id/OverUnder16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
+
                     </TableRow>
                     <!-- hole seventeen -->
                     <TableRow>
@@ -669,15 +693,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_seventeen"
+                            android:id="@+id/Par17"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="2"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_seventeen"
+                            android:id="@+id/Score17"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -685,11 +710,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_seventeen"
+                            android:id="@+id/OverUnder17"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:background="#90EE90"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -705,15 +730,16 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/par_eighteen"
+                            android:id="@+id/Par18"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:text="2"
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id = "@+id/score_eighteen"
+                            android:id="@+id/Score18"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -721,10 +747,11 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/over_eighteen"
+                            android:id="@+id/OverUnder18"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
@@ -740,27 +767,29 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/total_par"
+                            android:id="@+id/ParTotal"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/total_score"
+                            android:id="@+id/ScoreTotal"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id = "@+id/totalOvUn"
+                            android:id="@+id/OverUnderTotal"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:background="#90EE90"
+                            android:editable="false"
                             android:gravity="center"
                             android:textStyle="bold" />
                     </TableRow>
