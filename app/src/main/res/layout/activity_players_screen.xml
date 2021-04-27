@@ -13,7 +13,8 @@
         android:gravity="center"
         android:text="Player 1"
         android:textColor="#000000"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -102,28 +103,28 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_one"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="1"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_one"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="1"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_one"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#90EE90"
                             android:gravity="center"
-                            android:text="-1"
                             android:textStyle="bold" />
                     </TableRow>
                     <!--Hole two -->
@@ -138,27 +139,27 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_two"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="3"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_two"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="3"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_two"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="0"
                             android:textStyle="bold" />
                     </TableRow>
                     <!--Hole three -->
@@ -173,27 +174,27 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_three"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="4"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_three"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="4"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_three"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="0"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- Hole four -->
@@ -208,28 +209,28 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_four"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="4"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_four"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="5"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_four"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#FA8072"
                             android:gravity="center"
-                            android:text="+1"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- Hole five -->
@@ -244,28 +245,28 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_five"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="2"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_five"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="1"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_five"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#90EE90"
                             android:gravity="center"
-                            android:text="-1"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- Hole six -->
@@ -280,28 +281,28 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_six"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="2"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_six"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="1"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_six"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#90EE90"
                             android:gravity="center"
-                            android:text="-1"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- Hole seven -->
@@ -316,28 +317,28 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_seven"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="3"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_seven"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="5"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_seven"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#FA8072"
                             android:gravity="center"
-                            android:text="+2"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- Hole eight -->
@@ -352,27 +353,27 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_eight"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="2"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_eight"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="2"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_eight"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="0"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- Hole nine -->
@@ -383,31 +384,30 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="9"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_nine"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="5"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_nine"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="5"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_nine"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="0"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- Hole ten -->
@@ -422,27 +422,27 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_ten"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="4"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_ten"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="4"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_ten"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="0"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- hole eleven -->
@@ -457,28 +457,28 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_eleven"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="4"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_eleven"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="2"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_eleven"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#90EE90"
                             android:gravity="center"
-                            android:text="-2"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- hole twelve -->
@@ -493,28 +493,28 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_twelve"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="3"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_twelve"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="5"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_twelve"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#FA8072"
                             android:gravity="center"
-                            android:text="+2"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- hole thirteen -->
@@ -529,27 +529,27 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_thirteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="3"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_thirteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="3"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_thirteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="0"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- hole fourteen -->
@@ -564,27 +564,27 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_fourteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="1"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_fourteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="1"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_fourteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="0"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- hole fifteen -->
@@ -599,27 +599,27 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_fifteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="3"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_fifteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="3"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_fifteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="0"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- hole sixteen -->
@@ -634,27 +634,27 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_sixteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="3"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_sixteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="3"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_sixteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="0"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- hole seventeen -->
@@ -669,28 +669,28 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_seventeen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="2"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_seventeen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="1"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_seventeen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#90EE90"
                             android:gravity="center"
-                            android:text="-1"
                             android:textStyle="bold" />
                     </TableRow>
                     <!-- hole eighteen -->
@@ -705,27 +705,27 @@
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/par_eighteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="2"
                             android:textStyle="bold" />
 
                         <EditText
+                            android:id = "@+id/score_eighteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="2"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/over_eighteen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="0"
                             android:textStyle="bold" />
                     </TableRow>
                     <!--  total menu -->
@@ -740,28 +740,28 @@
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/total_par"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="40"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/total_score"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="41"
                             android:textStyle="bold" />
 
                         <TextView
+                            android:id = "@+id/totalOvUn"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#90EE90"
                             android:gravity="center"
-                            android:text="-1"
                             android:textStyle="bold" />
                     </TableRow>
                 </TableLayout>
