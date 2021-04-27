@@ -29,6 +29,11 @@ public class PlayersScreen extends AppCompatActivity {
             }
         });
 
+
+        /*
+         * DON'T DELETE THIS CODE
+         */
+
             /*******************
              * SCORE VARIABLES *
              *******************/
@@ -177,8 +182,10 @@ public class PlayersScreen extends AppCompatActivity {
             totalScore = totalScore + scores[i];
             //scoreT.setText(String.valueOf(totalScore));
         }
-        //updateTotalScore();
 
+        /*
+         * DON'T DELETE THIS CODE
+         */
     }
 
     public void switchExit(){
