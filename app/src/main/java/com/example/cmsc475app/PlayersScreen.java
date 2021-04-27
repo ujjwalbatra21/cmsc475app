@@ -25,6 +25,7 @@ public class PlayersScreen extends AppCompatActivity {
         setContentView(R.layout.activity_players_screen);
 
         button = (Button) findViewById(R.id.button6);
+
         total_Score = (TextView) findViewById(R.id.total_score);
         total_Par = (TextView) findViewById(R.id.total_par);
         totalOv_under = (TextView) findViewById(R.id.totalOvUn);
@@ -83,38 +84,41 @@ public class PlayersScreen extends AppCompatActivity {
         p17 = (EditText) findViewById(R.id.par_seventeen);
         p18 = (EditText) findViewById(R.id.par_eighteen);
 
-        n1 = Integer.parseInt(s1.getText().toString());
-        n2 = Integer.parseInt(s2.getText().toString());
-        n3 = Integer.parseInt(s3.getText().toString());
-        n4 = Integer.parseInt(s4.getText().toString());
-        n5 = Integer.parseInt(s5.getText().toString());
-        n6 = Integer.parseInt(s6.getText().toString());
-        n7 = Integer.parseInt(s7.getText().toString());
-        n8 = Integer.parseInt(s8.getText().toString());
-        n9 = Integer.parseInt(s9.getText().toString());
-        n10 = Integer.parseInt(s10.getText().toString());
-        n11 = Integer.parseInt(s11.getText().toString());
-        n12 = Integer.parseInt(s12.getText().toString());
-        n13 = Integer.parseInt(s13.getText().toString());
-        n14 = Integer.parseInt(s14.getText().toString());
-        n15 = Integer.parseInt(s15.getText().toString());
-        n16 = Integer.parseInt(s16.getText().toString());
-        n17 = Integer.parseInt(s17.getText().toString());
-        n18 = Integer.parseInt(s18.getText().toString());
-        scoresum = n1+n2+n3+n4+n5+n6+n7+n8+n9+n10+n11+n12+n13+n14+n15+n16+n17+n18;
-        t1 = Integer.parseInt(p2.getText().toString());
-        x = t1 - n2;
 
 
-        o2.setText(x);
 
-        total_Score.setText(scoresum);
+
+
 
 
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                n1 = Integer.parseInt(s1.getText().toString());
+                n2 = Integer.parseInt(s2.getText().toString());
+                n3 = Integer.parseInt(s3.getText().toString());
+                n4 = Integer.parseInt(s4.getText().toString());
+                n5 = Integer.parseInt(s5.getText().toString());
+                n6 = Integer.parseInt(s6.getText().toString());
+                n7 = Integer.parseInt(s7.getText().toString());
+                n8 = Integer.parseInt(s8.getText().toString());
+                n9 = Integer.parseInt(s9.getText().toString());
+                n10 = Integer.parseInt(s10.getText().toString());
+                n11 = Integer.parseInt(s11.getText().toString());
+                n12 = Integer.parseInt(s12.getText().toString());
+                n13 = Integer.parseInt(s13.getText().toString());
+                n14 = Integer.parseInt(s14.getText().toString());
+                n15 = Integer.parseInt(s15.getText().toString());
+                n16 = Integer.parseInt(s16.getText().toString());
+                n17 = Integer.parseInt(s17.getText().toString());
+                n18 = Integer.parseInt(s18.getText().toString());
+                scoresum = n1+n2+n3+n4+n5+n6+n7+n8+n9+n10+n11+n12+n13+n14+n15+n16+n17+n18;
+                t1 = Integer.parseInt(p2.getText().toString());
+                x = t1 - n2;
+                o2.setText(x);
+
+                total_Score.setText(scoresum);
                 switchExit();
 
             }
