@@ -11,20 +11,20 @@ import android.widget.EditText;
 
 public class PlayersScreen extends AppCompatActivity {
     private Button button;
-    /*private TextView total_Score;
+    private TextView total_Score;
     private TextView total_Par;
     private TextView totalOv_under;
     private TextView o1, o2, o3, o4, o5, o6, o7, o8, o9, o10, o11, o12, o13, o14, o15, o16, o17, o18;
     private EditText s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18;
     private EditText p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18;
-    private int n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17,n18, scoresum;*/
+    private int n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17,n18, scoresum;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_players_screen);
 
         button = (Button) findViewById(R.id.button6);
-        /*total_Score = (TextView) findViewById(R.id.total_score);
+        total_Score = (TextView) findViewById(R.id.total_score);
         total_Par = (TextView) findViewById(R.id.total_par);
         totalOv_under = (TextView) findViewById(R.id.totalOvUn);
         o1 = (TextView) findViewById(R.id.over_one);
@@ -106,7 +106,7 @@ public class PlayersScreen extends AppCompatActivity {
 
         total_Score.setText(scoresum);
 
-        //totalOv_under = o1 + o2 + o3 + o4 + o5 + o6 + o7 + o8, o9, o10, o11, o12, o13, o14, o15, o16, o17, o18;*/
+        //totalOv_under = o1 + o2 + o3 + o4 + o5 + o6 + o7 + o8, o9, o10, o11, o12, o13, o14, o15, o16, o17, o18;
 
 
         button.setOnClickListener(new View.OnClickListener() {
