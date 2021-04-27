@@ -12,24 +12,19 @@
 
     <EditText
         android:id="@+id/player_name"
-        android:background="@drawable/round_grey"
-        android:layout_width="match_parent"
+        android:layout_width="16dp"
+        android:layout_height="40dp"
         android:layout_weight="1"
-        android:hint="Enter Player Name"
-        android:layout_height="40dp"></EditText>
+        android:background="@drawable/round_grey"
+        android:hint="Enter Player Name"></EditText>
+
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="5dp"
         android:background="@drawable/round_grey">
 
-        <TextView
-            android:id="@+id/player_standing"
-            android:layout_width="145dp"
-            android:layout_height="40dp"
-            android:gravity="center"
-            android:text="Player(N)"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"></TextView>
+
 </FrameLayout>
 
     <ImageView
