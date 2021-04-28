@@ -210,6 +210,7 @@ public class PlayersScreen extends AppCompatActivity {
         Intent intent = new Intent(this, ExitActivity.class);
         startActivity(intent);
     }
+
     public void player2(){
         Intent intent = new Intent(this, player2.class);
         startActivity(intent);
