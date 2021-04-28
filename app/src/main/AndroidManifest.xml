@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CMSC475App">
-        <activity android:name=".player2"></activity>
+        <activity android:name=".player4"></activity>
+        <activity android:name=".player3" />
+        <activity android:name=".player2" />
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
@@ -28,7 +30,7 @@
         </activity>
         <activity
             android:name=".ExitActivity"
-            android:label="@string/title_activity_exit"></activity> <!-- <activity android:name=".NewGame"></activity> -->
+            android:label="@string/title_activity_exit" /> <!-- <activity android:name=".NewGame"></activity> -->
         <activity
             android:name=".NewGame"
             android:label="YourAppName">

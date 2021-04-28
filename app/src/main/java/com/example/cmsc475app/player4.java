@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class player2 extends AppCompatActivity {
+public class player4 extends AppCompatActivity {
     private Button button;
     private Button next_player;
     private Button prev_player;
@@ -34,7 +34,7 @@ public class player2 extends AppCompatActivity {
         next_player.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                player3();
+                player1();
 
             }
         });
@@ -42,7 +42,7 @@ public class player2 extends AppCompatActivity {
         prev_player.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                player1();
+                player3();
 
             }
         });
