@@ -209,6 +209,7 @@ public class player2 extends AppCompatActivity {
         Intent intent = new Intent(this, ExitActivity.class);
         startActivity(intent);
     }
+
     public void player3(){
         Intent intent = new Intent(this, player3.class);
         startActivity(intent);
