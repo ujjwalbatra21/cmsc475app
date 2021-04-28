@@ -11,6 +11,7 @@ import android.widget.TextView;
 public class PlayersScreen extends AppCompatActivity {
     private Button button;
     private Button next_player;
+    private Button prev_player;
     public TextView scoreT;
     public int totalScore;
     public int scores[] = new int[18];
@@ -34,6 +35,14 @@ public class PlayersScreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 player2();
+
+            }
+        });
+        prev_player = (Button) findViewById(R.id.button1);
+        prev_player.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                player4();
 
             }
         });
@@ -202,6 +211,10 @@ public class PlayersScreen extends AppCompatActivity {
     }
     public void player2(){
         Intent intent = new Intent(this, player2.class);
+        startActivity(intent);
+    }
+    public void player4(){
+        Intent intent = new Intent(this, player4.class);
         startActivity(intent);
     }
 
