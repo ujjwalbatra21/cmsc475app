@@ -58,10 +58,9 @@ public class NewGame extends AppCompatActivity implements View.OnClickListener {
         startActivity(intent);
     }
 
-
+    int i = 0;
     @Override
     public void onClick(View view) {
-        int i = 0;
         if (i == 0) {
             addView();
             Toast.makeText(getApplicationContext(),"First Player",Toast.LENGTH_SHORT).show();
@@ -71,7 +70,7 @@ public class NewGame extends AppCompatActivity implements View.OnClickListener {
             //i++;
             addView();
             Toast.makeText(getApplicationContext(),"First Player",Toast.LENGTH_SHORT).show();
-
+            i = 2;
         }
         if (i == 2) {
             //i++;
