@@ -61,25 +61,55 @@ public class NewGame extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
-        addView();
+        int i = 0;
+        if (i == 0) {
+            addView();
+            Toast.makeText(getApplicationContext(),"First Player",Toast.LENGTH_SHORT).show();
+            i = 1;
+        }
+        else if (i == 1) {
+            //i++;
+            addView();
+            Toast.makeText(getApplicationContext(),"First Player",Toast.LENGTH_SHORT).show();
+
+        }
+        if (i == 2) {
+            //i++;
+            addView();
+            Toast.makeText(getApplicationContext(),"Second Player",Toast.LENGTH_SHORT).show();
+        }
+        if (i == 3) {
+            //i++;
+            addView();
+            Toast.makeText(getApplicationContext(),"Third Player",Toast.LENGTH_SHORT).show();
+        }
+        if (i == 4) {
+            //i++;
+            addView();
+            Toast.makeText(getApplicationContext(),"Fourth Player",Toast.LENGTH_SHORT).show();
+        }
+        else{
+            Toast.makeText(getApplicationContext(),"Only 4 Players Allowed!",Toast.LENGTH_SHORT).show();
+        }
     }
-    private void addView(){
+    private void addView() {
 
-        View newplayerView = getLayoutInflater().inflate(R.layout.row_add_players,null,false);
-        EditText editText = (EditText)newplayerView.findViewById(R.id.player_name);
-        //TextView playerstandingText = (TextView)newplayerView.findViewById(R.id.player_standing);
-        ImageView imageclose = (ImageView) newplayerView.findViewById(R.id.image_remove);
+            View newplayerView = getLayoutInflater().inflate(R.layout.row_add_players, null, false);
+            EditText editText = (EditText) newplayerView.findViewById(R.id.player_name);
+            //TextView playerstandingText = (TextView)newplayerView.findViewById(R.id.player_standing);
+            ImageView imageclose = (ImageView) newplayerView.findViewById(R.id.image_remove);
 
-        imageclose.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                removeView(newplayerView);
-            }
-        });
-        layout_list.addView(newplayerView);
+            imageclose.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    removeView(newplayerView);
+                }
+            });
+            layout_list.addView(newplayerView);
     }
     private void removeView(View view){
         layout_list.removeView(view);
+
 
     }
 }
