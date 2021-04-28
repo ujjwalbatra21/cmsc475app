@@ -21,7 +21,7 @@ public class player4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_players_screen);
+        setContentView(R.layout.activity_player4);
         button = (Button) findViewById(R.id.button6);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
