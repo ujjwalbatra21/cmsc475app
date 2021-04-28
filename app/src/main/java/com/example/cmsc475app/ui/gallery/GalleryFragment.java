@@ -261,9 +261,6 @@ public class GalleryFragment extends Fragment {
             OvUn = OvUn + ou[i];
         }
 
-
-
-
         return root;
     }
     public void switchExit(){
