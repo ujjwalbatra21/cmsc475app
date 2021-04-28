@@ -17,6 +17,7 @@ import androidx.lifecycle.ViewModelProvider;
 import com.example.cmsc475app.ExitActivity;
 import com.example.cmsc475app.PlayersScreen;
 import com.example.cmsc475app.R;
+import com.example.cmsc475app.ui.slideshow.SlideshowFragment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -30,9 +31,14 @@ public class GalleryFragment extends Fragment {
     private Button button;
     public TextView scoreT;
     public int totalScore;
+    public TextView totalOvUn;
+    public int OvUn;
+    public TextView totalPar;
+    public int totalParr;
     public int scores[] = new int[18];
     public int pars[] = new int [18];
     public int holes[] = new int [18];
+    public int ou[] = new int [18];
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -155,6 +161,27 @@ public class GalleryFragment extends Fragment {
         int ou17 = Integer.parseInt(tvOU17.getText().toString() + 0);
         int ou18 = Integer.parseInt(tvOU18.getText().toString() + 0);
 
+        totalOvUn = (TextView)root.findViewById(R.id.OverUnderTotal);
+        OvUn = 0;
+
+        ou[0] = ou1;
+        ou[1] = ou2;
+        ou[2] = ou3;
+        ou[3] = ou4;
+        ou[4] = ou5;
+        ou[5] = ou6;
+        ou[6] = ou7;
+        ou[7] = ou8;
+        ou[8] = ou9;
+        ou[9] = ou10;
+        ou[10] = ou11;
+        ou[11] = ou12;
+        ou[12] = ou13;
+        ou[13] = ou14;
+        ou[14] = ou15;
+        ou[15] = ou16;
+        ou[16] = ou17;
+        ou[17] = ou18;
         /******************
          * PAR VARIABLES *
          ******************/
@@ -178,38 +205,79 @@ public class GalleryFragment extends Fragment {
         TextView tvPar18 = (TextView)root.findViewById(R.id.Par18);
 
         int hole1 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole2 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole3 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole4 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole5 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole6 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole7 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole8 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole9 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole10 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole11 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole12 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole13 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole14 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole15 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole16 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole17 = Integer.parseInt(tvPar1.getText().toString() + 0);
-        int hole18 = Integer.parseInt(tvPar1.getText().toString() + 0);
+        int hole2 = Integer.parseInt(tvPar2.getText().toString() + 0);
+        int hole3 = Integer.parseInt(tvPar3.getText().toString() + 0);
+        int hole4 = Integer.parseInt(tvPar4.getText().toString() + 0);
+        int hole5 = Integer.parseInt(tvPar5.getText().toString() + 0);
+        int hole6 = Integer.parseInt(tvPar6.getText().toString() + 0);
+        int hole7 = Integer.parseInt(tvPar7.getText().toString() + 0);
+        int hole8 = Integer.parseInt(tvPar8.getText().toString() + 0);
+        int hole9 = Integer.parseInt(tvPar9.getText().toString() + 0);
+        int hole10 = Integer.parseInt(tvPar10.getText().toString() + 0);
+        int hole11 = Integer.parseInt(tvPar11.getText().toString() + 0);
+        int hole12 = Integer.parseInt(tvPar12.getText().toString() + 0);
+        int hole13 = Integer.parseInt(tvPar13.getText().toString() + 0);
+        int hole14 = Integer.parseInt(tvPar14.getText().toString() + 0);
+        int hole15 = Integer.parseInt(tvPar15.getText().toString() + 0);
+        int hole16 = Integer.parseInt(tvPar16.getText().toString() + 0);
+        int hole17 = Integer.parseInt(tvPar17.getText().toString() + 0);
+        int hole18 = Integer.parseInt(tvPar18.getText().toString() + 0);
+        totalPar = (TextView)root.findViewById(R.id.ParTotal);
+        totalParr = 0;
+
+        pars[0] = hole1;
+        pars[1] = hole2;
+        pars[2] = hole3;
+        pars[3] = hole4;
+        pars[4] = hole5;
+        pars[5] = hole6;
+        pars[6] = hole7;
+        pars[7] = hole8;
+        pars[8] = hole9;
+        pars[9] = hole10;
+        pars[10] = hole11;
+        pars[11] = hole12;
+        pars[12] = hole13;
+        pars[13] = hole14;
+        pars[14] = hole15;
+        pars[15] = hole16;
+        pars[16] = hole17;
+        pars[17] = hole18;
 
         for (int i = 0; i < scores.length; i++){
             totalScore = totalScore + scores[i];
             //scoreT.setText(String.valueOf(totalScore));
         }
 
+        for (int i = 0; i < scores.length; i++){
+            totalParr = totalParr + pars[i];
+        }
+
+        for (int i = 0; i < scores.length; i++){
+            ou[i] = scores[i] - pars[i];
+        }
+
+        for (int i = 0; i < scores.length; i++){
+            OvUn = OvUn + ou[i];
+        }
+
+
+
 
         return root;
     }
     public void switchExit(){
-        Intent intent = new Intent(getActivity(), ExitActivity.class);
+        Intent intent = new Intent(getActivity(), SlideshowFragment.class);
         startActivity(intent);
     }
 
     void updateTotalScore(){
         scoreT.setText(String.valueOf(totalScore));
+    }
+    void updateTotalPar(){
+        totalPar.setText(String.valueOf(totalParr));
+    }
+    void updateTotalOu(){
+        totalOvUn.setText(String.valueOf(OvUn));
     }
 }

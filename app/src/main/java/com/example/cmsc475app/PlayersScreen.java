@@ -182,7 +182,6 @@ public class PlayersScreen extends AppCompatActivity {
             totalScore = totalScore + scores[i];
             //scoreT.setText(String.valueOf(totalScore));
         }
-
         /*
          * DON'T DELETE THIS CODE
          */
