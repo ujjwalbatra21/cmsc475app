@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class PlayersScreen extends AppCompatActivity {
+public class player4 extends AppCompatActivity {
     private Button button;
     private Button next_player;
     private Button prev_player;
@@ -34,7 +34,7 @@ public class PlayersScreen extends AppCompatActivity {
         next_player.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                player2();
+                player1();
 
             }
         });
@@ -42,7 +42,7 @@ public class PlayersScreen extends AppCompatActivity {
         prev_player.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                player4();
+                player3();
 
             }
         });
@@ -52,9 +52,9 @@ public class PlayersScreen extends AppCompatActivity {
          * DON'T DELETE THIS CODE
          */
 
-            /*******************
-             * SCORE VARIABLES *
-             *******************/
+        /*******************
+         * SCORE VARIABLES *
+         *******************/
         TextView tv1 = (TextView)findViewById(R.id.Score1);
         TextView tv2 = (TextView)findViewById(R.id.Score2);
         TextView tv3 = (TextView)findViewById(R.id.Score3);
@@ -114,9 +114,9 @@ public class PlayersScreen extends AppCompatActivity {
         scores[16] = score17;
         scores[17] = score18;
 
-            /************************
-             * OVER/UNDER VARIABLES *
-             ************************/
+        /************************
+         * OVER/UNDER VARIABLES *
+         ************************/
         TextView tvOU1 = (TextView)findViewById(R.id.OverUnder1);
         TextView tvOU2 = (TextView)findViewById(R.id.OverUnder2);
         TextView tvOU3 = (TextView)findViewById(R.id.OverUnder3);
@@ -155,9 +155,9 @@ public class PlayersScreen extends AppCompatActivity {
         int ou17 = Integer.parseInt(tvOU17.getText().toString() + 0);
         int ou18 = Integer.parseInt(tvOU18.getText().toString() + 0);
 
-            /******************
-             * PAR VARIABLES *
-             ******************/
+        /******************
+         * PAR VARIABLES *
+         ******************/
         TextView tvPar1 = (TextView)findViewById(R.id.Par1);
         TextView tvPar2 = (TextView)findViewById(R.id.Par2);
         TextView tvPar3 = (TextView)findViewById(R.id.Par3);
@@ -209,17 +209,17 @@ public class PlayersScreen extends AppCompatActivity {
         Intent intent = new Intent(this, ExitActivity.class);
         startActivity(intent);
     }
-    public void player2(){
-        Intent intent = new Intent(this, player2.class);
+    public void player3(){
+        Intent intent = new Intent(this, player3.class);
         startActivity(intent);
     }
-    public void player4(){
-        Intent intent = new Intent(this, player4.class);
+    public void player1(){
+        Intent intent = new Intent(this, PlayersScreen.class);
         startActivity(intent);
     }
 
     void updateTotalScore(){
-            scoreT.setText(String.valueOf(totalScore));
+        scoreT.setText(String.valueOf(totalScore));
     }
 
 }
