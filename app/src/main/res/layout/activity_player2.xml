@@ -29,7 +29,7 @@
             android:layout_weight="1"
             android:background="@drawable/rounded_corner"
             android:gravity="center"
-            android:text="Player 1"
+            android:text="Player 2"
             android:textColor="#000000"
             android:textStyle="bold" />
 
@@ -80,13 +80,7 @@
                             android:text="Score"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:text="Over/Under"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- Hole one -->
                     <TableRow>
@@ -116,14 +110,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!--Hole two -->
                     <TableRow>
@@ -153,14 +140,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!--Hole three -->
                     <TableRow>
@@ -190,14 +170,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- Hole four -->
                     <TableRow>
@@ -227,15 +200,8 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
                     </TableRow>
+
                     <!-- Hole five -->
                     <TableRow>
 
@@ -264,14 +230,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- Hole six -->
                     <TableRow>
@@ -301,14 +260,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- Hole seven -->
                     <TableRow>
@@ -338,14 +290,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- Hole eight -->
                     <TableRow>
@@ -375,14 +320,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- Hole nine -->
                     <TableRow>
@@ -412,14 +350,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- Hole ten -->
                     <TableRow>
@@ -449,14 +380,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- hole eleven -->
                     <TableRow>
@@ -486,14 +410,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder11"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- hole twelve -->
                     <TableRow>
@@ -523,14 +440,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder12"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- hole thirteen -->
                     <TableRow>
@@ -560,14 +470,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder13"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- hole fourteen -->
                     <TableRow>
@@ -597,14 +500,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder14"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- hole fifteen -->
                     <TableRow>
@@ -634,14 +530,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder15"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- hole sixteen -->
                     <TableRow>
@@ -671,14 +560,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder16"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
 
                     </TableRow>
                     <!-- hole seventeen -->
@@ -709,14 +591,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder17"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!-- hole eighteen -->
                     <TableRow>
@@ -746,14 +621,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnder18"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                     <!--  total menu -->
                     <TableRow>
@@ -784,14 +652,7 @@
                             android:gravity="center"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/OverUnderTotal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:editable="false"
-                            android:gravity="center"
-                            android:textStyle="bold" />
+
                     </TableRow>
                 </TableLayout>
                 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"

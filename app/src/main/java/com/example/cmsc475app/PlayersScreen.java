@@ -115,9 +115,9 @@ public class PlayersScreen extends AppCompatActivity {
         scores[16] = score17;
         scores[17] = score18;
 
-            /************************
+       /*     /************************
              * OVER/UNDER VARIABLES *
-             ************************/
+             ***********************
         TextView tvOU1 = (TextView)findViewById(R.id.OverUnder1);
         TextView tvOU2 = (TextView)findViewById(R.id.OverUnder2);
         TextView tvOU3 = (TextView)findViewById(R.id.OverUnder3);
@@ -154,7 +154,7 @@ public class PlayersScreen extends AppCompatActivity {
         int ou15 = Integer.parseInt(tvOU15.getText().toString() + 0);
         int ou16 = Integer.parseInt(tvOU16.getText().toString() + 0);
         int ou17 = Integer.parseInt(tvOU17.getText().toString() + 0);
-        int ou18 = Integer.parseInt(tvOU18.getText().toString() + 0);
+        int ou18 = Integer.parseInt(tvOU18.getText().toString() + 0);*/
 
             /******************
              * PAR VARIABLES *

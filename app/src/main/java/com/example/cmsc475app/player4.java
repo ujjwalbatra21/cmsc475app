@@ -116,7 +116,7 @@ public class player4 extends AppCompatActivity {
 
         /************************
          * OVER/UNDER VARIABLES *
-         ************************/
+         ***********************
         TextView tvOU1 = (TextView)findViewById(R.id.OverUnder1);
         TextView tvOU2 = (TextView)findViewById(R.id.OverUnder2);
         TextView tvOU3 = (TextView)findViewById(R.id.OverUnder3);
