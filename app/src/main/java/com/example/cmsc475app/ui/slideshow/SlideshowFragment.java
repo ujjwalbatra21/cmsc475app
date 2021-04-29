@@ -1,6 +1,8 @@
 package com.example.cmsc475app.ui.slideshow;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,38 +18,34 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.cmsc475app.ExitActivity;
+import com.example.cmsc475app.NewGame;
 import com.example.cmsc475app.R;
 
 public class SlideshowFragment extends Fragment {
     private Button button;
-    private SlideshowViewModel slideshowViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
-        final TextView textView = root.findViewById(R.id.text_slideshow);
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
 
-        button = (Button) root.findViewById(R.id.switchexitscreen);
+        View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
+        super.onCreate(savedInstanceState);
+
+        button = (Button) root.findViewById(R.id.button3);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                switchExit();
+                switchNewGame();
 
             }
         });
         return root;
-
     }
-    public void switchExit(){
-        Intent intent = new Intent(getActivity(), ExitActivity.class);
+
+    public void switchNewGame(){
+        Intent intent = new Intent(getActivity(), NewGame.class);
         startActivity(intent);
     }
+
+
+
 }
