@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
@@ -8,15 +7,18 @@
         <item
             android:id="@+id/newGame"
             android:icon="@drawable/new_game_icon"
-            android:title="New Game"/>
+            android:title="New Game"
+            android:iconTint="@color/white"/>
         <item
             android:id="@+id/currentGame"
             android:icon="@drawable/current_game_icon"
-            android:title="Current Game" />
+            android:title="Current Game"
+            android:iconTint="@color/white"/>
         <item
             android:id="@+id/exitGame"
             android:icon="@drawable/exit_icon"
-            android:title="Exit" />
+            android:title="Exit"
+            android:iconTint="@color/white"/>
     </group>
 </menu>
 

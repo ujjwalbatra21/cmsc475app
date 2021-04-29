@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/dark_mode">
 
     <TextView
         android:id="@+id/textView3"
@@ -12,6 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
         android:text="PUTT PUTT APP"
+        android:fontFamily = "sans-serif-condensed-light"
+        android:textSize="38dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,16 +26,18 @@
         android:layout_height="200dp"
         android:layout_marginTop="20dp"
         android:orientation="vertical"
+        android:fontFamily="sans-serif-condensed-light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"></LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Play"
+        android:fontFamily = "sans-serif-condensed-light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.948"
@@ -44,6 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Exit"
+        android:fontFamily = "sans-serif-condensed-light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintHorizontal_bias="0.07"
@@ -57,6 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="112dp"
         android:text="Add Player"
+        android:fontFamily = "sans-serif-condensed-light"
         android:drawableRight="@drawable/ic_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,6 +77,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome! Get Ready to Maximize Your Putt Putt Experience!"
+        android:fontFamily = "sans-serif-condensed-light"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
