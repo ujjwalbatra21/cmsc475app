@@ -67,7 +67,7 @@ public class NewGame extends AppCompatActivity implements View.OnClickListener {
 
             View newplayerView = getLayoutInflater().inflate(R.layout.row_add_players, null, false);
             EditText editText = (EditText) newplayerView.findViewById(R.id.player_name);
-            //TextView playerstandingText = (TextView)newplayerView.findViewById(R.id.player_standing);
+
             ImageView imageclose = (ImageView) newplayerView.findViewById(R.id.image_remove);
 
             imageclose.setOnClickListener(new View.OnClickListener() {
