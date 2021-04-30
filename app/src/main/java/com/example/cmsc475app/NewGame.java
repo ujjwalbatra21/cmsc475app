@@ -83,10 +83,7 @@ public class NewGame extends AppCompatActivity implements View.OnClickListener {
 
     }
     private void removeView(View view){
-        Toast.makeText(this,"Only 4 Players Allowed!",Toast.LENGTH_SHORT).show();
         layout_list.removeView(view);
-
-
 
     }
 }
