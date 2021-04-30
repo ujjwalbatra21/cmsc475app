@@ -42,7 +42,7 @@ public class player3 extends AppCompatActivity {
         prev_player.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                player2();
+                //player2();
 
             }
         });
@@ -209,10 +209,10 @@ public class player3 extends AppCompatActivity {
         Intent intent = new Intent(this, ExitActivity.class);
         startActivity(intent);
     }
-    public void player2(){
-        Intent intent = new Intent(this, player2.class);
-        startActivity(intent);
-    }
+    //public void player2(){
+       // Intent intent = new Intent(this, player2.class);
+        //startActivity(intent);
+    //}
     public void player4(){
         Intent intent = new Intent(this, player4.class);
         startActivity(intent);
