@@ -58,38 +58,10 @@ public class NewGame extends AppCompatActivity implements View.OnClickListener {
         startActivity(intent);
     }
 
-    int i = 0;
+
     @Override
     public void onClick(View view) {
-        if (i == 0) {
-            addView();
-            Toast.makeText(getApplicationContext(),"First Player",Toast.LENGTH_SHORT).show();
-            i = 1;
-        }
-        else if (i == 1) {
-            //i++;
-            addView();
-            Toast.makeText(getApplicationContext(),"First Player",Toast.LENGTH_SHORT).show();
-            i = 2;
-        }
-        if (i == 2) {
-            //i++;
-            addView();
-            Toast.makeText(getApplicationContext(),"Second Player",Toast.LENGTH_SHORT).show();
-        }
-        if (i == 3) {
-            //i++;
-            addView();
-            Toast.makeText(getApplicationContext(),"Third Player",Toast.LENGTH_SHORT).show();
-        }
-        if (i == 4) {
-            //i++;
-            addView();
-            Toast.makeText(getApplicationContext(),"Fourth Player",Toast.LENGTH_SHORT).show();
-        }
-        else{
-            Toast.makeText(getApplicationContext(),"Only 4 Players Allowed!",Toast.LENGTH_SHORT).show();
-        }
+           addView();
     }
     private void addView() {
 
@@ -104,10 +76,16 @@ public class NewGame extends AppCompatActivity implements View.OnClickListener {
                     removeView(newplayerView);
                 }
             });
+            Toast.makeText(this,"First Player",Toast.LENGTH_SHORT).show();
             layout_list.addView(newplayerView);
+
+
+
     }
     private void removeView(View view){
+        Toast.makeText(this,"Only 4 Players Allowed!",Toast.LENGTH_SHORT).show();
         layout_list.removeView(view);
+
 
 
     }
