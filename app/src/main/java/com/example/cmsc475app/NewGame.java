@@ -76,7 +76,7 @@ public class NewGame extends AppCompatActivity implements View.OnClickListener {
                     removeView(newplayerView);
                 }
             });
-            Toast.makeText(this,"First Player",Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this,"First Player",Toast.LENGTH_SHORT).show();
             layout_list.addView(newplayerView);
 
 
